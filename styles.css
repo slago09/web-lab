@@ -5,3 +5,39 @@ body {
   padding: 2rem;
   background: #f6f8fa;
 }
+
+
+header {
+  background: #24292f;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+body[data-theme="dark"] {
+  background: #1f2328;
+  color: #f0f6fc;
+}
+
+body[data-theme="dark"] header {
+  background: #0d1117;
+}
